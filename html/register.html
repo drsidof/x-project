@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get started page</title>
+    
+    <link rel="stylesheet" href="../boostrap-3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Salsa" rel="stylesheet">
+
+</head>
+<body>
+        
+                <div class="container">
+                    <div class="containersm">
+    
+                        <h1 class="my-3 pb-4 text-dark">Create an Account to take Test in various fields.</h1>
+                        <form action="#" id="register" method="POST" onsubmit="submitBtn();">
+                        <div>
+                                <input type="text" id="firstname" placeholder="Enter First Name" class="form-control mb-2"  name="firstname" required>
+                                <span class="invalid-feedback" id="first-name-error"></span>
+                                <input type="text" id="lastname" placeholder="Enter Last Name" class="form-control mb-2"  name="lastname" required>
+                                <span class="invalid-feedback" id="last-name-error"></span>
+                                <input type="email" id="email" placeholder="Enter Email" class="form-control mb-2" name="email" required>
+                                <span class="invalid-feedback" id="email-error"></span>
+                                <input type="text" id="username" placeholder="Enter User Name" class="form-control mb-2"
+                                name="username" required>
+                                <span class="invalid-feedback" id="username-error"></span>
+                                <input type="password" id="password" placeholder="Enter password" class="form-control" name="password"required>
+                                <span class="invalid-feedback" id="password-error"></span>
+                                <button type="submit" class="btn btn-primary btn-sm my-3" id="btn">Register</button>
+                    
+                        </div>
+                        </form>
+                        <div class="openacct">
+                            <p class=>Already have an account? <a href="login.html"><span class="text-success">Sign in.</span></a></p>
+                                    <a href="#"><span class="text-dark">Terms of Service</span></a> & 
+                                    <a href="#"><span class="text-dark">Privacy Policy</span></a>.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+              
+    <script src="../js/register.js"></script>
+</body>
+</html>
